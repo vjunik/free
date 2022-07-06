@@ -1,0 +1,126 @@
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-BookItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Black.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-DemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek.woff2') format('woff2'),
+        url('../fonts/20Kopeek.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-BlackItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Bold.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-BoldItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-DemiBold.woff2') format('woff2'),
+        url('../fonts/20Kopeek-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Thin.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-ThinItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Italic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-LightItalic.woff2') format('woff2'),
+        url('../fonts/20Kopeek-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('../fonts/20Kopeek-Light.woff2') format('woff2'),
+        url('../fonts/20Kopeek-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

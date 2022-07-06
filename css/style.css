@@ -1,0 +1,121 @@
+@import url(fonts.css);
+@import url(bootstrap.css);
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@media screen and (max-width: 991px) {
+  .navbar-collapse.justify-content-end.align-items-center.collapse.show {
+    position: relative; }
+    .navbar-collapse.justify-content-end.align-items-center.collapse.show .navbar-nav {
+      display: flex;
+      align-items: center;
+      margin: 0; }
+      .navbar-collapse.justify-content-end.align-items-center.collapse.show .navbar-nav .nav-item {
+        margin-bottom: 20px; }
+        .navbar-collapse.justify-content-end.align-items-center.collapse.show .navbar-nav .nav-item:nth-child(3) {
+          margin-right: 24px; } }
+
+header {
+  z-index: 2; }
+  header .container {
+    max-width: 1110px;
+    padding: 0; }
+    header .container nav {
+      padding: 0; }
+      header .container nav .navbar-brand {
+        max-width: 84px;
+        margin: 31px 22px 0 0;
+        padding: 0; }
+        header .container nav .navbar-brand img {
+          width: 100%;
+          display: block; }
+      header .container nav p {
+        margin-top: 36px;
+        font-family: "20 Kopeek", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 120%;
+        color: #FFFFFF; }
+        @media screen and (max-width: 350px) {
+          header .container nav p {
+            font-size: 12px; } }
+      header .container nav button {
+        margin-top: 32px; }
+      header .container nav #navbarSupportedContent {
+        margin-top: 32px; }
+        header .container nav #navbarSupportedContent .navbar-nav .nav-item:nth-child(1) {
+          max-width: 204px;
+          border: solid 1px white;
+          border-radius: 15px;
+          padding: 7px 27px 7px 33px;
+          margin-right: 23px; }
+        header .container nav #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+          padding: 0; }
+          header .container nav #navbarSupportedContent .navbar-nav .nav-item .nav-link:nth-child(1) {
+            font-family: "20 Kopeek", sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF; }
+        header .container nav #navbarSupportedContent .navbar-nav .nav-item:nth-child(2) {
+          margin-right: 23px; }
+
+.main_banner {
+  height: 100vh; }
+  .main_banner .item {
+    background-image: url("/img/banner.jpg");
+    background-size: cover;
+    height: 100vh; }
+    .main_banner .item .container {
+      padding-top: 18%; }
+      @media screen and (max-width: 991px) {
+        .main_banner .item .container {
+          padding-top: 260px; } }
+      .main_banner .item .container h1 {
+        max-width: 590px;
+        font-family: "20 Kopeek-Book", sans-serif;
+        font-weight: 300;
+        font-size: 55px;
+        margin-bottom: 30px; }
+        @media screen and (max-width: 991px) {
+          .main_banner .item .container h1 {
+            font-size: 25px; } }
+      .main_banner .item .container h3 {
+        font-family: "20 Kopeek-Book", sans-serif;
+        font-weight: 300;
+        font-size: 34px;
+        margin-bottom: 88px; }
+        @media screen and (max-width: 991px) {
+          .main_banner .item .container h3 {
+            font-size: 20px;
+            margin-bottom: 30px; } }
+      .main_banner .item .container .buttons {
+        display: flex; }
+        @media screen and (max-width: 991px) {
+          .main_banner .item .container .buttons {
+            flex-direction: column;
+            align-items: center; } }
+        .main_banner .item .container .buttons a {
+          border: none;
+          background-color: #FFFFFF;
+          border-radius: 40px;
+          padding: 23px 47px;
+          font-family: "20 Kopeek", sans-serif;
+          font-size: 18px;
+          color: #000000;
+          margin-right: 20px;
+          text-decoration: none;
+          cursor: pointer; }
+          @media screen and (max-width: 991px) {
+            .main_banner .item .container .buttons a {
+              padding: 15px;
+              margin-bottom: 30px; } }
+    .main_banner .item.item_2 {
+      background-image: url("/img/banner_2.jpg"); }
+    .main_banner .item.item_3 {
+      background-image: url("/img/banner_3.jpg"); }
+    .main_banner .item.item_4 {
+      background-image: url("/img/banner_4.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

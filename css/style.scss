@@ -1,0 +1,161 @@
+
+@import "fonts.css";
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+
+.navbar-collapse.justify-content-end.align-items-center.collapse.show {
+  @include max-screen(991px) {
+    position: relative;
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      .nav-item {
+        margin-bottom: 20px;
+        &:nth-child(3) {
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+}
+
+header {
+  z-index: 2;
+  .container {
+    max-width: 1110px;
+    padding: 0;
+    nav {
+      padding: 0;
+      .navbar-brand {
+        max-width: 84px;
+        margin: 31px 22px 0 0;
+        padding: 0;
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+      p {
+        @include max-screen(350px) {
+          font-size: 12px;
+        }
+        margin-top: 36px;
+        font-family: "20 Kopeek", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 120%;
+        color: #FFFFFF;
+      }
+      button {
+        margin-top: 32px;
+      }
+      #navbarSupportedContent {
+        margin-top: 32px;
+        .navbar-nav {
+          .nav-item {
+            &:nth-child(1) {
+              max-width: 204px;
+              border: solid 1px white;
+              border-radius: 15px;
+              padding: 7px 27px 7px 33px;
+              margin-right: 23px;
+            }
+            .nav-link {
+              padding: 0;
+              &:nth-child(1) {
+                font-family: "20 Kopeek", sans-serif;
+                font-weight: normal;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+              }
+            }
+            &:nth-child(2) {
+              margin-right: 23px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.main_banner {
+  height: 100vh;
+    .item {
+      background-image: url("/img/banner.jpg");
+      background-size: cover;
+      height: 100vh;
+      .container {
+        padding-top: 18%;
+        @include max-screen(991px) {
+          padding-top: 260px;
+        }
+        h1 {
+          max-width: 590px;
+          font-family: "20 Kopeek-Book", sans-serif;
+          font-weight: 300;
+          font-size: 55px;
+          margin-bottom: 30px;
+          @include max-screen(991px) {
+            font-size: 25px;
+          }
+        }
+        h3 {
+          font-family: "20 Kopeek-Book", sans-serif;
+          font-weight: 300;
+          font-size: 34px;
+          margin-bottom: 88px;
+          @include max-screen(991px) {
+            font-size: 20px;
+            margin-bottom: 30px;
+          }
+        }
+        .buttons {
+          display: flex;
+          @include max-screen(991px) {
+            flex-direction: column;
+            align-items: center;
+          }
+          a {
+            border: none;
+            background-color: #FFFFFF;
+            border-radius: 40px;
+            padding: 23px 47px;
+            font-family: "20 Kopeek", sans-serif;
+            font-size: 18px;
+            color: #000000;
+            margin-right: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            @include max-screen(991px) {
+              padding: 15px;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+      &.item_2 {
+        background-image: url("/img/banner_2.jpg");
+      }
+      &.item_3 {
+        background-image: url("/img/banner_3.jpg");
+      }
+      &.item_4 {
+        background-image: url("/img/banner_4.jpg");
+      }
+    }
+}
