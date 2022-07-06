@@ -96,7 +96,7 @@ header {
 .main_banner {
   height: 100vh;
     .item {
-      background-image: url("/img/banner.jpg");
+      background-image: url("../img/banner.jpg");
       background-size: cover;
       height: 100vh;
       .container {
@@ -149,13 +149,13 @@ header {
         }
       }
       &.item_2 {
-        background-image: url("/img/banner_2.jpg");
+        background-image: url("../img/banner_2.jpg");
       }
       &.item_3 {
-        background-image: url("/img/banner_3.jpg");
+        background-image: url("../img/banner_3.jpg");
       }
       &.item_4 {
-        background-image: url("/img/banner_4.jpg");
+        background-image: url("../img/banner_4.jpg");
       }
     }
 }

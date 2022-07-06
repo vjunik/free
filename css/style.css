@@ -64,7 +64,7 @@ header {
 .main_banner {
   height: 100vh; }
   .main_banner .item {
-    background-image: url("/img/banner.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     height: 100vh; }
     .main_banner .item .container {
@@ -112,10 +112,10 @@ header {
               padding: 15px;
               margin-bottom: 30px; } }
     .main_banner .item.item_2 {
-      background-image: url("/img/banner_2.jpg"); }
+      background-image: url("../img/banner_2.jpg"); }
     .main_banner .item.item_3 {
-      background-image: url("/img/banner_3.jpg"); }
+      background-image: url("../img/banner_3.jpg"); }
     .main_banner .item.item_4 {
-      background-image: url("/img/banner_4.jpg"); }
+      background-image: url("../img/banner_4.jpg"); }
 
 /*# sourceMappingURL=style.css.map */
