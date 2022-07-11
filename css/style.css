@@ -2,6 +2,20 @@
 @import url(bootstrap.css);
 @import url(owl.carousel.css);
 @import url(owl.theme.default.css);
+.height-100 {
+  height: 100vh; }
+
+.btn {
+  padding: 23px 47px;
+  transition: 0.33s; }
+  .btn:hover {
+    transform: scale(1.05);
+    transition: 0.33s;
+    text-decoration: none; }
+
+body {
+  font-family: "20 Kopeek", sans-serif; }
+
 @media screen and (max-width: 991px) {
   .navbar-collapse.justify-content-end.align-items-center.collapse.show {
     position: relative; }
@@ -15,7 +29,7 @@
           margin-right: 24px; } }
 
 header {
-  z-index: 2; }
+  z-index: 4; }
   header .container {
     max-width: 1110px;
     padding: 0; }
@@ -61,61 +75,109 @@ header {
         header .container nav #navbarSupportedContent .navbar-nav .nav-item:nth-child(2) {
           margin-right: 23px; }
 
-.main_banner {
+.main_section {
   height: 100vh; }
-  .main_banner .item {
-    background-image: url("../img/banner.jpg");
-    background-size: cover;
+  .main_section .h-100 {
     height: 100vh; }
-    .main_banner .item .container {
-      padding-top: 18%; }
-      @media screen and (max-width: 991px) {
-        .main_banner .item .container {
-          padding-top: 260px; } }
-      .main_banner .item .container h1 {
-        max-width: 590px;
-        font-family: "20 Kopeek-Book", sans-serif;
-        font-weight: 300;
-        font-size: 55px;
-        margin-bottom: 30px; }
-        @media screen and (max-width: 991px) {
-          .main_banner .item .container h1 {
-            font-size: 25px; } }
-      .main_banner .item .container h3 {
-        font-family: "20 Kopeek-Book", sans-serif;
-        font-weight: 300;
-        font-size: 34px;
-        margin-bottom: 88px; }
-        @media screen and (max-width: 991px) {
-          .main_banner .item .container h3 {
-            font-size: 20px;
-            margin-bottom: 30px; } }
-      .main_banner .item .container .buttons {
-        display: flex; }
-        @media screen and (max-width: 991px) {
-          .main_banner .item .container .buttons {
-            flex-direction: column;
-            align-items: center; } }
-        .main_banner .item .container .buttons a {
-          border: none;
-          background-color: #FFFFFF;
-          border-radius: 40px;
-          padding: 23px 47px;
-          font-family: "20 Kopeek", sans-serif;
-          font-size: 18px;
-          color: #000000;
-          margin-right: 20px;
-          text-decoration: none;
-          cursor: pointer; }
-          @media screen and (max-width: 991px) {
-            .main_banner .item .container .buttons a {
-              padding: 15px;
-              margin-bottom: 30px; } }
-    .main_banner .item.item_2 {
-      background-image: url("../img/banner_2.jpg"); }
-    .main_banner .item.item_3 {
-      background-image: url("../img/banner_3.jpg"); }
-    .main_banner .item.item_4 {
-      background-image: url("../img/banner_4.jpg"); }
+  .main_section .position-absolute {
+    z-index: 3; }
+  .main_section .slide-one.owl-carousel .owl-nav, .main_section .slide-one.owl-carousel .owl-dots {
+    display: none; }
+  .main_section h1 {
+    color: black;
+    font-family: "20 Kopeek", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 30px; }
+  .main_section h3 {
+    font-family: "20 Kopeek", sans-serif;
+    font-size: 34px;
+    line-height: 37px;
+    margin-bottom: 88px; }
+  .main_section .main_banner {
+    background-size: cover;
+    height: 99.9vh; }
+    .main_section .main_banner.item1 {
+      background-image: url(../img/banner.jpg); }
+    .main_section .main_banner.item2 {
+      background-image: url(../img/banner_2.jpg); }
+    .main_section .main_banner.item3 {
+      background-image: url(../img/banner_3.jpg); }
+    .main_section .main_banner.item4 {
+      background-image: url(../img/banner_4.jpg); }
+
+.company_style {
+  padding: 68px 0 134px; }
+  .company_style h3 {
+    font-size: 38px; }
+  .company_style_last_p {
+    background-color: #2B59C3;
+    padding: 11px 13px;
+    margin-left: -13px;
+    border-radius: 5px; }
+
+.logos_and_names p {
+  margin-bottom: 0; }
+.logos_and_names h2 {
+  font-size: 55px; }
+.logos_and_names .logos_item {
+  top: -42px;
+  font-size: 55px;
+  font-family: "20 Kopeek", sans-serif; }
+.logos_and_names .logos_item2 {
+  font-family: "20 Kopeek", sans-serif;
+  font-size: 15px;
+  padding: 0; }
+
+.portfolio {
+  padding: 0 0 100px; }
+  .portfolio h3 {
+    font-size: 45px; }
+  .portfolio div.row {
+    margin-bottom: 100px; }
+    .portfolio div.row:last-of-type {
+      margin: 0 0 53px; }
+    .portfolio div.row div {
+      padding: 0; }
+  .portfolio a {
+    margin-left: 59px;
+    text-decoration: none; }
+    .portfolio a:last-of-type {
+      margin: 0; }
+  .portfolio p {
+    margin: 0; }
+  .portfolio .showmore {
+    position: relative;
+    right: 170px; }
+    @media screen and (max-width: 1199px) {
+      .portfolio .showmore {
+        right: 130px; } }
+    @media screen and (max-width: 991px) {
+      .portfolio .showmore {
+        left: 110px; } }
+    @media screen and (max-width: 575px) {
+      .portfolio .showmore {
+        position: static; } }
+
+.present {
+  padding-bottom: 77px; }
+  .present .present_first_p {
+    background-color: #2B59C3;
+    padding: 11px 23px 18px 14px;
+    border-radius: 5px;
+    margin-left: -11px; }
+    .present .present_first_p span {
+      font-size: 26px; }
+  .present h4 {
+    font-size: 38px; }
+
+.form_call_back {
+  padding-bottom: 150px; }
+  .form_call_back h3 {
+    font-size: 38px; }
+  .form_call_back .form-check {
+    padding-left: 36px; }
 
 /*# sourceMappingURL=style.css.map */

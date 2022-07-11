@@ -1,21 +1,22 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        autoplay: false,
-        autoplayTimeout: 2000,
-        margin:0,
-        nav:true,
-        navText: [ '', ' ' ],
-
-        responsive:{
-            0:{
-                items:1
+    $('.slide-one').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        navText: ['', ' '],
+        lazyLoad: true,
+        autoplay: true,
+        autoplayTimeout: 9000,
+        autoplaySpeed: 3500,
+        responsive: {
+            0: {
+                items: 1
             },
 
-            1000:{
-                items:1
+            1000: {
+                items: 1
             }
-        }
+        },
     });
 });
